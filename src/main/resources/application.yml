@@ -1,0 +1,12 @@
+azure:
+  activedirectory:
+    b2c:
+      tenant: mrochonb2cprod
+      client-id: fcbb5bd6-fb15-41fa-aacd-580be799c820
+      client-secret: '621.CtxONmN~w-E8~uOH7eKwI-p-ouI6mY'
+      reply-url: http://localhost:8080/home
+      logout-success-url: http://localhost:8080/home
+      user-flows:
+        sign-up-or-sign-in: B2C_1_BasicSUSI
+        profile-edit: B2C_1_Edit
+        password-reset: B2C_1_PwdReset
