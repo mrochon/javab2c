@@ -2,6 +2,7 @@ azure:
   activedirectory:
     b2c:
       tenant: mrochonb2cprod
+      oidc-enabled: true      
       client-id: fcbb5bd6-fb15-41fa-aacd-580be799c820
       client-secret: '621.CtxONmN~w-E8~uOH7eKwI-p-ouI6mY'
       reply-url: http://localhost:8080/home

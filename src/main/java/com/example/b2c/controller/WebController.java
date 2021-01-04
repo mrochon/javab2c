@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.b2c.controller;
 
 import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.security.oauth2.core.user.OAuth2User;
